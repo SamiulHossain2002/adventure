@@ -1,0 +1,648 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+  }
+body {
+   font-family: "Open Sans",
+      sans-serif; 
+}
+
+img { 
+   max-width: 100%; 
+   display: block;
+}
+/* haeder section  */
+header {
+   background-image: url("../images/dawn.jpg");
+   background-repeat: no-repeat; 
+   background-position: center; 
+   padding: 20px 0px; 
+}
+.container { 
+   width: 1100px;
+   margin: auto; 
+}
+.flex {
+   display: flex;
+}
+.logo {
+   width: 25%;
+}
+.logo h2 { 
+   font-size: 30px;
+   font-weight: 700; 
+   color: white;
+}
+.logo h2 span {
+   font-size: 22px;
+   font-weight: 500; 
+   display: block;
+}
+nav { 
+   
+   width: 75%; 
+}
+nav ul {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 12px;
+   margin-right: -22px;
+}
+nav ul li { 
+   list-style: none;
+}
+nav ul li a { 
+   color: white; 
+   text-decoration: none; 
+   padding: 20px; 
+   font-size:20px;
+   font-weight: 600;
+}
+/* banner section  */
+.banner-content {
+   text-align: center; 
+   padding: 200px 0px;
+   color: azure;
+}
+.banner-content h3 {
+   font-size: 25px;
+   font-style: italic;
+}
+.banner-content span {
+   width: 300px;
+   height: 5px;
+   background-color: brown;
+   display: block;
+   margin: auto;
+   margin-top: 12px;
+}
+.banner-content h1 {
+   text-decoration: none;
+   letter-spacing: 2px; 
+   font-size: 50px;
+   margin: 35px; 
+}
+.banner-content a { 
+   text-decoration: none;
+   letter-spacing: 2px;
+   background-color: rgba(255, 0, 0, 0.694);
+   padding: 12px; border-radius: 60px;
+}
+
+/* upcoming events */
+.event {
+   padding-top: 60px;
+   font-size: 30px;
+   color: black;
+   text-align: center;
+}
+
+.event h2 {}
+
+.event  span {
+   width: 400px;
+   height: 5px;
+   background-color: brown;
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.feature{}
+
+.col-1-2{
+   padding: 20px;
+   text-align: center;
+}
+
+.col-1-2 img{
+    height: 600px;
+    object-fit: cover; 
+    border-radius: 30px;
+    box-shadow: 10px 10px 3px #8080805c;
+}
+
+.col-1-2 h2{
+    font-size: 30px;
+    color: #000000a3;
+    margin: 30px 0 0 0;
+}
+
+.col-1-2 p{
+    font-size: 20px;
+    color: #5c5c5c;
+}
+
+.col-1-2 a {
+    text-decoration: none;
+    color: brown;
+    letter-spacing: 4px;
+    font-size: 18px;
+    margin-top: 15px;
+    display: block;
+}
+
+/* explore-section */
+
+.explore-section{
+   background-image:url(../images/father\ 2.jpg);
+   background-repeat: no-repeat;    
+   background-position: center;
+   background-size:100%;
+   background-color: rgba(12, 154, 230, 0.55);
+   background-blend-mode: multiply;
+   padding: 150px 0; 
+   object-fit: cover;
+   margin: auto;
+   margin-top: 100px;
+   color: azure;
+
+}
+.explore-flex{
+   display: flex;
+   justify-content:right;
+}
+
+.column {
+   width: 50%;
+}
+.column h2 {
+   font-size: 60px;
+}
+.column span {}
+.column p {
+    font-size: 25px;
+}
+.column a {
+    text-decoration: none;
+    color:white;@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+}
+
+    * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+      }
+    body {
+       font-family: "Open Sans",
+          sans-serif; 
+    }
+    img { 
+       max-width: 100%; 
+       display: block;
+    }
+    header {
+       background-image: url("../images/dawn.jpg");
+       background-repeat: no-repeat; 
+       background-position: center; 
+       padding: 20px 0px; 
+       /* background-attachment: fixed; */
+    }
+    .container { 
+       width: 1100px;
+       margin: auto; 
+    }
+    .flex {
+       display: flex;
+    }
+    .logo {
+       width: 25%;
+    }
+    .logo h2 { 
+       font-size: 30px;
+       font-weight: 700; 
+       color: white;
+    }
+    .logo h2 span {
+       font-size: 22px;
+       font-weight: 500; 
+       display: block;
+    }
+    nav { 
+       
+       width: 75%; 
+    }
+    nav ul {
+       display: flex;
+       justify-content: flex-end;
+       margin-top: 12px;
+       margin-right: -22px;
+    }
+    nav ul li { 
+       list-style: none;
+    }
+    nav ul li a { 
+       color: white; 
+       text-decoration: none; 
+       padding: 20px; 
+       font-size:20px;
+       font-weight: 600;
+    }
+    /* banner section */
+    .banner-content {
+       text-align: center; 
+       padding: 200px 0px;
+       color: azure;
+    }
+    .banner-content h3 {
+       font-size: 25px;
+       font-style: italic;
+    }
+    .banner-content span {
+       width: 300px;
+       height: 5px;
+       background-color: brown;
+       display: block;
+       margin: auto;
+       margin-top: 12px;
+    }
+    .banner-content h1 {
+       text-decoration: none;
+       letter-spacing: 2px; 
+       font-size: 50px;
+       margin: 35px; 
+    }
+    .banner-content a { 
+       text-decoration: none;
+       letter-spacing: 2px;
+       background-color: rgba(255, 0, 0, 0.694);
+       padding: 12px; border-radius: 60px;
+    }
+    
+    /* upcoming events */
+    .event {
+       padding-top: 60px;
+       font-size: 30px;
+       color: black;
+       text-align: center;
+    }
+    
+    .event h2 {}
+    
+    .event  span {
+       width: 400px;
+       height: 5px;
+       background-color: brown;
+       display: block;
+       margin: auto;
+       margin-top: 10px;
+       margin-bottom: 20px;
+    }
+    
+    .feature{}
+    
+    .col-1-2{
+       padding: 20px;
+       text-align: center;
+    }
+    
+    .col-1-2 img{
+        height: 600px;
+        object-fit: cover;
+        border-radius: 30px;
+        box-shadow: 10px 10px 3px #8080805c;
+    }
+    
+    .col-1-2 h2{
+        font-size: 30px;
+        color: #000000a3;
+        margin: 30px 0 0 0;
+    }
+    
+    .col-1-2 p{
+        font-size: 20px;
+        color: #5c5c5c;
+    }
+    
+    .col-1-2 a {
+        text-decoration: none;
+        color: brown;
+        letter-spacing: 4px;
+        font-size: 18px;
+        margin-top: 15px;
+        display: block;
+    }
+    
+    /* explore-section */
+    
+    .explore-section{
+       background-image:url(../images/father\ 2.jpg);
+       background-repeat: no-repeat;    
+       background-position: center;
+       background-size:100%;
+       background-color: rgba(12, 154, 230, 0.55);
+       background-blend-mode: multiply;
+       padding: 150px 0; 
+       object-fit: cover;
+       margin: auto;
+       margin-top: 100px;
+       color: azure;
+      background-attachment: fixed;
+    }
+    .explore-flex{
+       display: flex;
+       justify-content:right;
+    }
+    
+    .column {
+       width: 50%;
+    }
+    .column h2 {
+       font-size: 45px;
+    }
+    .column span {
+      width: 330px;
+      height: 5px;
+      background-color: brown;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+    .column p {
+        font-size: 25px;
+        padding: 28px;
+    }
+    .column a {text-decoration: none;
+      color: white;
+      font-size: 25px;
+      margin: 100px 100px;
+      background-color: rgb(225, 27, 45);
+      border-radius: 0px 44px 47px 0px;
+      padding: 8px;
+   }
+
+    
+    /*tour-section*/
+
+    .tour-section{
+      padding: 20px 0px;
+    }
+    .tour-section span{
+      width: 620px;
+      height: 8px;
+      background-color: brown;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+    .tour-section h2{
+      font-size: 30px;
+    }
+    .tour-section p{
+      padding: 20px;
+      font-size: 20px;
+    }
+    .tour-section a{
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      margin: 10px 10px 10px 10px;
+      background-color: rgb(225, 27, 45);
+      border-radius: 45px 45px 45px 45px;
+      padding: 8px 8px 8px 8px;
+
+    }
+
+    
+    .col-1-3{
+      padding: 15px;
+      width: 33.33%; 
+   }
+
+    .small{
+      height: 350px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 20px; 
+   }
+    .big{
+      height: 400px;
+      width: 100%;
+       object-fit: cover;
+       margin-bottom: 20px; 
+      }
+
+      /* footer-section */
+      footer {
+         text-align: center;
+         padding: 60px;
+         background-color: DarkSalmon;
+         color: white;
+       }
+       .footer-name{
+         font-size: 30px;
+         margin-bottom: 17px;
+       }
+       footer a{
+         color: wheat;
+         text-decoration: none;
+         background-color: rgb(225, 27, 45);
+         padding: 5px;
+         margin:auto;
+       }
+       footer span{
+         color: black;
+       }
+
+       /* Medium devices (landscape tablets,mobiles 768px and up) */
+      @media only screen and (max-width: 768px) {
+
+
+  
+   .container { 
+      width: 100%;
+      margin: auto; 
+   }
+   .flex {
+      display: block;
+   }
+   .logo {
+      width: 100%;
+   }
+   .logo h2 { 
+      font-size: 30px;
+     text-align: center;
+     margin-bottom: 30px;
+   }
+   
+   nav {
+      
+width: 100%;
+
+   }
+   nav ul {
+      display: flex;
+      justify-content: center;
+      margin-top: 12px;
+   
+   }
+   nav ul li { 
+      list-style: none;
+   }
+   .banner-content {
+      text-align: center; 
+      padding: 100px 0px;
+      color: azure;
+   }
+   .banner-content h3 {
+      font-size: 20px;
+     
+   }
+  
+   .banner-content h1 {
+      text-decoration: none;
+      letter-spacing: 2px; 
+      font-size: 40px;
+      margin: 40px; 
+      text-align: center;
+   }
+   .banner-content a { 
+      
+      letter-spacing: 1px;
+      background-color: rgba(255, 0, 0, 0.694);
+      padding: 6px; 
+   }
+   /*upcoming events*/
+   .event {
+      padding-top: 60px;
+      font-size: 20px;
+     
+   }
+   
+
+   
+   .feature{}
+   
+   .col-1-2{
+      padding: 20px;
+      text-align: center;
+   }
+   
+   .col-1-2 img{
+       height: 300px;
+       object-fit: cover;
+       border-radius: 30px;
+       box-shadow: 10px 10px 3px #8080805c;
+       
+   }
+   
+   .col-1-2 h2{
+       font-size: 20px;
+       color: #000000a3;
+       margin: 30px 0 0 0;
+   }
+   
+   .col-1-2 p{
+       font-size: 20px;
+       color: #5c5c5c;
+   }
+   /* explore section */
+
+   .explore-section{
+      background-image:url(../images/father\ 2.jpg);
+      background-repeat: no-repeat;    
+      background-position: center;
+      background-size:100%;
+      background-color: rgba(12, 154, 230, 0.55);
+      background-blend-mode: multiply;
+      padding: 150px 0; 
+      object-fit: cover;
+      margin: auto;
+      margin-top: 100px;
+      color: azure;
+     background-attachment: fixed;
+   }
+   .explore-flex{
+      display: flex;
+      justify-content:right;
+   }
+   
+   .column {
+      width: 50%;
+   }
+   .column h2 {
+      font-size: 45px;
+   }
+   .column span {
+     width: 330px;
+     height: 5px;
+     background-color: brown;
+     display: block;
+     margin-top: 10px;
+     margin-bottom: 30px;
+   }
+   .column p {
+       font-size: 25px;
+       padding: 28px;
+   }
+   .column a {text-decoration: none;
+     color: white;
+     font-size: 25px;
+     margin: 100px 100px;
+     background-color: rgb(225, 27, 45);
+     border-radius: 0px 44px 47px 0px;
+     padding: 8px;
+  }
+  /* tour section */
+  .tour-section{
+   padding: 20px 0px;
+ }
+ 
+ 
+ .tour-section h2{
+   font-size: 30px;
+   margin-left: 190px;
+ }
+ .tour-section p{
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 138px;
+ }
+ .tour-section a{
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+   margin: 10px 10px 10px 270px;
+   background-color: rgb(225, 27, 45);
+   border-radius: 45px 45px 45px 45px;
+   padding: 8px 8px 8px 8px;
+   text-align: center;
+ }
+
+ 
+ .col-1-3{
+   padding: 15px;
+   width: 80%; 
+   margin-left: 20px;
+}
+
+ .small{
+   height: 400px;
+   width: 100%;
+   object-fit: cover;
+   margin-bottom: 19px;
+   margin-left: 73px;
+}
+ .big{
+   height: 400px;
+   width: 100%;
+   object-fit: cover;
+   margin-bottom: 20px;
+   margin-left: 75px;
+   }
+   
+
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+     @media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+     @media only screen and (min-width: 1200px) {...}
